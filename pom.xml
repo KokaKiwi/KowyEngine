@@ -74,7 +74,7 @@
 					<basedir>${basedir}/src</basedir>
 					<header>${basedir}/etc/license_gnu_gpl_v3_header.txt</header>
 					<includes>
-						<include>**/com/kowymaker/**</include>
+						<include>**/com/kokakiwi/engine/**</include>
 					</includes>
 				</configuration>
 				<executions>
