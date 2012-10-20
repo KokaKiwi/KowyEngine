@@ -128,6 +128,18 @@ public class Rectangle implements Geometry2D
         this.height = height;
     }
     
+    /**
+     * Set rectangle width.
+     * 
+     * @param width
+     * @param height
+     */
+    public void setSize(int width, int height)
+    {
+        this.width = width;
+        this.height = height;
+    }
+    
     public Geometry2D intersect(Geometry2D geom)
     {
         Geometry2D result = null;
